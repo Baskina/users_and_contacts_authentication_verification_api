@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "*"
+pypi = "*"
+passlib = "*"
+jose = "*"
+pydantic-settings = "*"
+fastapi-limiter = "*"
+fastapi-mail = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
+python_full_version = "3.12.7"
